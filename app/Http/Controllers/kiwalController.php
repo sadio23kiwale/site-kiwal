@@ -25,4 +25,9 @@ class kiwalController extends Controller
 
         return view('contact');
     }
+
+    public function tarif(){
+
+        return view('tarif');
+    }
 }
